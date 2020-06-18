@@ -7,7 +7,7 @@ import java.util.Calendar;
 import com.bank.Bank;
 
 aspect Logger {
-	
+
 	File file = new File("log.txt");
     Calendar cal = Calendar.getInstance();
     String suceso = "";
@@ -40,8 +40,12 @@ aspect Logger {
 	}
 	
 	after() : retiro() {
-		System.out.println("RETIRO - " + cal.getTime());
 		suceso = "RETIRO - " + cal.getTime();
 		escribirLog(suceso);
 	}
+	  pointcut success() : call(* create*(..) );
+	    after() : success() {
+	    //Aspecto ejemplo: solo muestra este mensaje despu�s de haber creado un usuario 
+	    	System.out.println("**** User created ****");
+	    }
 }
