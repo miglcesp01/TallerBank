@@ -13,7 +13,13 @@ aspect Logger {
 	
 	private void escribirLog(String suceso) {
 		// Codigo para escribir en el archivo log
-		System.out.println(suceso);
+		BufferedWriter os=null;
+		try {
+			
+		}catch(Exception e) {
+			System.out.println(e.getMessage());
+		}
+		
 	}
 	pointcut deposito(): execution(* moneyMakeTransaction(..));
 	pointcut retiro(): execution(* moneyWithdrawal(..));
@@ -25,6 +31,7 @@ aspect Logger {
 	
 	after() : retiro() {
 		System.out.println("RETIRO - " + cal.getTime());
+		suceso = "RETIRO - " + cal.getTime();
 		escribirLog(suceso);
 	}
 }
