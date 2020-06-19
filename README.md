@@ -1,5 +1,9 @@
-# TallerBank
-Taller 2 de Software Design
+# Taller 2 Paradigma Orientado a Aspectos
+## Objetivos:
+-Implementar un requerimiento utilizando el paradigma orientado a aspectos.
+## Pre-requisitos
+Instalar AspectJ con ajdt en Eclipse 4.8
+## Pruebas
 
 Opción 1: Creacion de Usuario 
 ![Alt text](SimpleBank/imagenes/opcion1.png?raw=true "Imagen 1")
@@ -11,4 +15,11 @@ Opción 2: Realizar Transacción
 
 Opción 3: Retiro 
 ![Alt text](SimpleBank/imagenes/opcion3.png?raw=true "Imagen 3")
+
+## Autores
+-Miguel Angel Licea Cespedes 
+-Yiam Oswaldo Rodriguez Delgado
+-Cristopher Leonardo Jaramillo Cumbicos 
+-Luis Alfredo Rodriguez Chavez
+-Carlos Humberto Meneses Murillo 
 
