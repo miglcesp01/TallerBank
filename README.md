@@ -1,4 +1,5 @@
 # Taller 2 Paradigma Orientado a Aspectos
+
 ## Objetivos:
 -Implementar un requerimiento utilizando el paradigma orientado a aspectos.
 ## Pre-requisitos
