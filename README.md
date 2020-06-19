@@ -17,9 +17,13 @@ Opción 3: Retiro
 ![Alt text](SimpleBank/imagenes/opcion3.png?raw=true "Imagen 3")
 
 ## Autores
--Miguel Angel Licea Cespedes 
+-Miguel Angel Licea Cespedes
+
 -Yiam Oswaldo Rodriguez Delgado
+
 -Cristopher Leonardo Jaramillo Cumbicos 
+
 -Luis Alfredo Rodriguez Chavez
+
 -Carlos Humberto Meneses Murillo 
 
