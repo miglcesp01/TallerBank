@@ -16,7 +16,7 @@ Opción 2: Realizar Transacción
 Opción 3: Retiro 
 ![Alt text](SimpleBank/imagenes/opcion3.png?raw=true "Imagen 3")
 
-## Autores
+## Autores:
 -Miguel Angel Licea Cespedes
 
 -Yiam Oswaldo Rodriguez Delgado
